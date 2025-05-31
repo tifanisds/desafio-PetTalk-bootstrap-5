@@ -1,10 +1,10 @@
-:root {
-    --primary-color: #FF7235;
-}
-
 /*
 inicio common
 */
+
+:root {
+    --primary-color: #FF7235;
+}
 
 * {
     font-family: "Inter", sans-serif;
@@ -19,7 +19,11 @@ inicio common
 }
 
 /*
-fim common
+Fim common
+*/
+
+/*
+Inicio main-presentation
 */
 
 #nav-logo {
@@ -81,12 +85,37 @@ Inicio do Hero
 
 
 /*
-Fim do hero
+Fim do main-presentation
+*/
+
+/*
+Inicio do about-app
 */
 
 #about-app img {
     height: 350px;
 }
+
+/*
+INicio do about-app
+*/
+
+/*
+Fim do about-collar
+*/
+
+#about-collar img {
+    height: 350px;
+}
+
+#about-collar a {
+    color: var(--primary-color);
+}
+
+/*
+Fim do about-collar
+*/
+
 
 @media (min-width: 576px) {
     #hero {
@@ -108,4 +137,9 @@ Fim do hero
     p  {
         font-size: 19px;
     }
+
+    #about-collar img {
+        height: inherit;
+    }
+
 }
