@@ -18,6 +18,18 @@ inicio common
     max-width: 1100px;
 }
 
+.btn-orange {
+    background-color: #FF7235;
+    border: none;
+    color: #FFF;
+    transition: background-color 400ms;
+}
+
+.btn-orange:hover {
+    background-color: #df5a21;
+    color: #FFF;
+}
+
 /*
 Fim common
 */
@@ -36,18 +48,6 @@ Inicio main-presentation
 
 #mobile-menu-btn .navbar-toggler-icon {
     filter: brightness(0) invert(1);
-}
-
-.btn-orange {
-    background-color: #FF7235;
-    border: none;
-    color: #FFF;
-    transition: background-color 400ms;
-}
-
-.btn-orange:hover {
-    background-color: #df5a21;
-    color: #FFF;
 }
 
 #navbarTogglerMenu {
@@ -108,13 +108,27 @@ Fim do about-collar
     height: 350px;
 }
 
-#about-collar a {
+#about-collar .read-more {
     color: var(--primary-color);
 }
 
 /*
 Fim do about-collar
 */
+
+/*
+Inicio do about-plans
+*/
+
+#about-the-plans .separator {
+    border: solid 2px #666;
+}
+
+/*
+Fim do about-plans
+*/
+
+
 
 
 @media (min-width: 576px) {
@@ -140,6 +154,11 @@ Fim do about-collar
 
     #about-collar img {
         height: inherit;
+    }
+
+    #about-the-plans .plan-benefits-item {
+        display: flex;
+        justify-content: center;
     }
 
 }
