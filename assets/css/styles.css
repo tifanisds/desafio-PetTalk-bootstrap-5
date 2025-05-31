@@ -1,0 +1,82 @@
+:root {
+    --primary-color: #FF7235;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+#nav-logo {
+    width: 142px;
+}
+
+#mobile-menu-btn {
+    background-color: #FF7235;
+}
+
+#mobile-menu-btn .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.btn-orange {
+    background-color: #FF7235;
+    border: none;
+    color: #FFF;
+    transition: background-color 400ms;
+}
+
+.btn-orange:hover {
+    background-color: #df5a21;
+    color: #FFF;
+}
+
+#navbarTogglerMenu {
+    text-align: center;
+}
+
+/* 
+Inicio do Hero
+*/
+
+#hero {
+    height: 450px;
+    position: relative;
+    text-align: center;
+}
+
+#hero:before {
+    content: "";
+    background-image: url(../img/main-presentation.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 90%;
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#hero .hero-cta {
+    max-width: 600px;
+}
+
+@media (min-width: 576px) {
+    #hero {
+        height: 525px;
+        text-align: left;
+        background-image: url(../img/main-presentation.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    
+    #hero:before {
+        background: none;
+    }
+}
+
+/*
+Fim do hero
+*/
