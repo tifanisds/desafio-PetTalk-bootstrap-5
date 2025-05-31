@@ -128,6 +128,26 @@ Inicio do about-plans
 Fim do about-plans
 */
 
+/*
+Inicio do feedbacks
+*/
+
+#feedbacks #box1 {
+    border-top: solid #FFBE21 6px;
+}
+
+#feedbacks #box2 {
+    border-top: solid #4756DF 6px;
+}
+
+#feedbacks #box3 {
+    border-top: solid #3EC1F3 6px;
+}
+
+/*
+Fim do feedbacks
+*/
+
 
 
 
