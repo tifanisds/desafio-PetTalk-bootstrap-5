@@ -129,6 +129,11 @@ Inicio do about-plans
     border: solid 2px #666;
 }
 
+#about-the-plans .border-container {
+    border: solid 2px #e0e0e0;
+    border-radius: 16px;
+}
+
 /*
 Fim do about-plans
 */
