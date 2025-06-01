@@ -14,10 +14,6 @@ inicio common
     background-color: var(--primary-color);
 }
 
-.container {
-    max-width: 1100px;
-}
-
 .btn-orange {
     background-color: #FF7235;
     border: none;
