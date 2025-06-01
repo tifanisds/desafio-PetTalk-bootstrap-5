@@ -54,6 +54,11 @@ Inicio main-presentation
     text-align: center;
 }
 
+h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
 /* 
 Inicio do Hero
 */
@@ -148,6 +153,22 @@ Inicio do feedbacks
 Fim do feedbacks
 */
 
+/*
+Fim do feedbacks
+*/
+
+#footer-logo {
+    width: 110px;
+}
+
+#footer .social-media {
+    width: 25px;
+}
+
+/*
+Fim do feedbacks
+*/
+
 
 
 
@@ -179,6 +200,10 @@ Fim do feedbacks
     #about-the-plans .plan-benefits-item {
         display: flex;
         justify-content: center;
+    }
+
+    #footer-logo {
+        width: 100px;
     }
 
 }
